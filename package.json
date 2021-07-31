@@ -1,0 +1,19 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Carlos Casara <carloscasara98@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/index.js",
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "fast-csv": "^4.3.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
